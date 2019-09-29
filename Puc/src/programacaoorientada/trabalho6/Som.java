@@ -7,7 +7,7 @@ public class Som extends Arquivo{
 	}
 	
 	public void abrir() {
-		super.abrir((byte)(2));
+		System.out.println("Winodws Media Player");
 	}
 
 }

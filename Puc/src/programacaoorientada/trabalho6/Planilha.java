@@ -7,7 +7,7 @@ public class Planilha extends Arquivo{
 	}
 	
 	public void abrir() {
-		super.abrir((byte)(4));
+		System.out.println("Microsoft Excel");
 	}
 
 }

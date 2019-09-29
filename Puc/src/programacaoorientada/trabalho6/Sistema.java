@@ -16,7 +16,7 @@ public class Sistema {
 		escola.inserir(a);
 		Planilha p = new Planilha("Calculo 2");
 		escola.inserir(p);
-		
+
 		escola.listar();
 		
 		Video v = new Video("Aniversario");

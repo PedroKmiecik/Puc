@@ -7,7 +7,7 @@ public class Imagem extends Arquivo{
 	}
 	
 	public void abrir() {
-		super.abrir((byte)(1));
+		System.out.println("Google Fotos");
 	}
 
 }

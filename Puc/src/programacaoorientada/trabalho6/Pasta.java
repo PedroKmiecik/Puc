@@ -27,11 +27,13 @@ public class Pasta {
 	}
 
 	public void listar() {
+		ArrayList<String> lista = new ArrayList();
 		int i = 0;
 		while (i < arquivos.size()) {
-			System.out.println(arquivos.get(i).getNome());
+			lista.add(arquivos.get(i).getNome());
 			i++;
 		}
+		System.out.println(lista);
 	}
 
 	public void duplicar(String nome) {
@@ -43,10 +45,6 @@ public class Pasta {
 			}
 			i++;
 		}
-	}
-
-	public void nome() {
-		System.out.println("Pasta: " + nome);
 	}
 
 }

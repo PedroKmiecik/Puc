@@ -7,7 +7,7 @@ public class Texto extends Arquivo{
 	}
 	
 	public void abrir() {
-		super.abrir((byte)(0));
+	System.out.println("Microsoft Word");
 	}
 
 }

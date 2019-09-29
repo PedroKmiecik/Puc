@@ -7,7 +7,7 @@ public class Apresentacao extends Arquivo{
 	}
 	
 	public void abrir() {
-		super.abrir((byte)(5));
+		System.out.println("Microsoft PowerPoint");
 	}
 
 }

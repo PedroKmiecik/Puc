@@ -7,7 +7,7 @@ public class Video extends Arquivo{
 	}
 	
 	public void abrir() {
-		super.abrir((byte)(3));
+		System.out.println("VLC Player");
 	}
 
 }
