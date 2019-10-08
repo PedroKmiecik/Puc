@@ -8,7 +8,6 @@ public class Banco {
 
 	private String name;
 	private double horario;
-	private ContaCorrente novaConta;
 	private ArrayList<ContaCorrente> contas = new ArrayList<>();
 	private ArrayList<Integer> numeroContas = new ArrayList<>();
 
