@@ -6,11 +6,15 @@ import programacaoorientada.trabalho8.exceptions.*;
 
 public class Banco {
 
-	private String name;
+	private String nome;
 	private double horario;
 	private ArrayList<ContaCorrente> contas = new ArrayList<>();
 	private ArrayList<Integer> numeroContas = new ArrayList<>();
 
+	public Banco(String nome) {
+		this.nome = nome;
+	}
+	
 	public void criar_conta(int numero, String senha, double saldo) {
 		ContaCorrente novaConta = new ContaCorrente(numero, senha, saldo);
 		contas.add(novaConta);

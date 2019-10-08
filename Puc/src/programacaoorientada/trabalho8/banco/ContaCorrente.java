@@ -2,7 +2,7 @@ package programacaoorientada.trabalho8.banco;
 
 import programacaoorientada.trabalho8.exceptions.*;
 
-public class ContaCorrente extends Banco{
+public class ContaCorrente {
 
 	private int numero;
 	private String senha;

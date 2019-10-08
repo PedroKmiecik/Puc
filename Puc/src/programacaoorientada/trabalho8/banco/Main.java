@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Banco itau = new Banco();
+		Banco itau = new Banco("Itau");
 
 		itau.criar_conta(1, "minha senha", 900.0);
 		itau.criar_conta(2, "minha senha", 500.0);
