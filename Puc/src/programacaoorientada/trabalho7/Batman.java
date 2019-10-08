@@ -1,9 +1,9 @@
 package programacaoorientada.trabalho7;
 
-public class Batman extends Heroi implements Camuflagem{
+public class Batman extends Heroi implements Camuflagem {
 
 	public void atirar() {
-		super.atirar();
+		System.out.println(getClass().getSimpleName() + " Atirando.");
 	}
 
 	public void camuflar(int cor) {
@@ -12,7 +12,7 @@ public class Batman extends Heroi implements Camuflagem{
 	}
 
 	public void personificar(Heroi h) {
-		
+
 	}
 
 }

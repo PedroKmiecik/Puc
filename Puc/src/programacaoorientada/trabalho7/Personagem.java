@@ -8,20 +8,11 @@ public abstract class Personagem {
 	protected float posicao_z;
 	protected int cor;
 	
-	public void correr(float x, float y) {
-		this.posicao_x = x;
-		this.posicao_y = y;
-		System.out.println(getClass().getSimpleName() + " Correndo.");
-	}
+	abstract public void correr(float x, float y);
 	
-	public void saltar(float z) {
-		this.posicao_z = z;
-		System.out.println(getClass().getSimpleName() + " Saltando.");
-	}
+	abstract public void saltar(float z);
 	
-	public void atirar() {
-		System.out.println(getClass().getSimpleName() + " Atirando.");
-	}
+	abstract public void atirar();
 	
 	public void morrer() {
 		this.vivo = false;

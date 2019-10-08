@@ -5,7 +5,8 @@ public class Goldfinger extends Terrorista implements Personificacao{
 	private Heroi heroi;
 	
 	public void saltar(float z) {
-		super.saltar(z);
+		this.posicao_z = z;
+		System.out.println(getClass().getSimpleName() + " Saltando.");
 	}
 	
 	public void camuflar(int cor) {
@@ -15,7 +16,7 @@ public class Goldfinger extends Terrorista implements Personificacao{
 
 	public void personificar(Heroi h) {
 		this.heroi = h;
-		System.out.println("Personificando: " + heroi.getClass().getSimpleName());
+		System.out.println(this.getClass().getSimpleName() + " Personificando: " + heroi.getClass().getSimpleName());
 	}
 	
 }

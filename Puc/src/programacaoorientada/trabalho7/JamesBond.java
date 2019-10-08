@@ -3,7 +3,7 @@ package programacaoorientada.trabalho7;
 public class JamesBond extends Heroi{
 
 	public void atirar() {
-		super.atirar();
+		System.out.println(getClass().getSimpleName() + " Atirando.");
 	}
 	
 	public void saltar(float z) {

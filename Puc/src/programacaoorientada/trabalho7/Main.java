@@ -29,6 +29,7 @@ public class Main {
 		drno.saltar(5);
 		drno.atirar();
 		drno.correr(5, 10);
+		drno.morrer();
 		
 	}
 	
